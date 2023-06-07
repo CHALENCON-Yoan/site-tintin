@@ -1,0 +1,88 @@
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>TINTIN</title>
+		<link rel="stylesheet"
+		href="projet.css">
+		<script src="projet.js"> </script>
+</head>
+<body>
+	<header>
+		<div id="en-tete">
+		<div id="img">
+		<img src="Images/tintin_milou.png">
+		</div>
+		<div id="titre">
+		<h1>TINTIN</h1>
+		</div>
+		<div id="img2">
+		<img src="Images/tintin_milou.png">
+		</div>
+		</div>
+		<nav>
+			<ul>
+			<li id="accueil" onmouseover="couleurChange('accueil', '#F97068')" onmouseout="couleurChange('accueil', '#9E8FAB')"><a href="accueil.html">Accueil</a></li>
+			<li id="personnages" onmouseover="couleurChange('personnages', '#F97068')" onmouseout="couleurChange('personnages', '#9E8FAB')"><a href="persos.html">Personnages</a></li>
+			<li id="bd" onmouseover="couleurChange('bd', '#F97068')" onmouseout="couleurChange('bd', '#9E8FAB')"><a href="bd.html">BD</a></li>
+			<li id="serie_animee" onmouseover="couleurChange('serie_animee', '#F97068')" onmouseout="couleurChange('serie_animee', '#9E8FAB')"><a href="serie_animee.html">Série Animée</a></li>
+			<li class="dernier" id="film" onmouseover="couleurChange('film', '#F97068')" onmouseout="couleurChange('film', '#9E8FAB')"><a href="film.html">Film</a></li>
+			</ul>
+		</nav>
+	</header>
+	<a href="#top"><img src ="Images/top.png" id="fleche"/></a>
+	<main>
+	<h1><u>POLITIQUE DE CONFIDENTIALITÉ</u> :</h1>
+	<i>En vigueur à partir du 07/03/2022</i><br><br>
+La présente politique de confidentialité ont pour objet le traitement des informations collectées par le site du projet de NSI, les raisons de collecter ces données personnelles vous concernant. Par conséquent, vous devez lire cette politique de confidentialité avant d'utiliser le site du projet de NSI.
+<br>La présente politique de confidentialité est accessible sur le site via le lien hypertexte « Politique de Confidentialité » disponible en bas de chaque page de ce site.
+
+<br><br><h2><u>ARTICLE 1</u> : Les informations personnelles que nous collectons</h2>
+
+Le site du projet de NSI ne collecte aucune de vos informations personnelles. Par conséquent, il est exempté de déclaration à la Commission Nationale Informatique et Libertés (CNIL). Les données saisies dans le formulaire du contact sont uniquement stockées sur l'appareil depuis lequel vous consultez ce site et ne sont envoyées à personne l'envoie du message n'étant pas fonctionnel.
+
+<br><br><h2><u>ARTICLE 2</u> : Liens hypertextes</h2>
+
+Notre site web peut contenir des liens vers d'autres sites web qui ne sont pas détenus ou contrôlés par nous. Sachez que nous ne sommes pas responsables de ces autres sites web ou des pratiques de confidentialité des tiers. Nous vous encourageons à être attentif lorsque vous quittez notre site web et à lire les déclarations de confidentialité de chaque site web susceptible de collecter des informations personnelles.
+
+<br><br><h2><u>ARTICLE 3</u> : Informations de contact</h2>
+
+Si vous souhaitez nous contacter pour comprendre davantage la présente politique ou si vous souhaitez nous contacter concernant toute question relative aux droits individuels et à vos informations personnelles, vous pouvez prendre contact avec l'établissement :
+<ul class="liste">- Adresse postale : 4 Rue des 2 Vallées 07160 Le Cheylard</ul>
+<ul class="liste">- Numéro du téléphone : 04 - 75 - 29 - 13 - 66</ul>
+<ul class="liste">- Adresse e - mail : <a href="mailto:ce.0071397f@ac-grenoble.fr" class="liens">ce.0071397f@ac-grenoble.fr</a></ul>
+
+<br><br><br><i>Politique de confidentialité réalisée par ARMAND Arthur & CHALENCON Yoan</i>
+	</main>
+	<aside>
+	<h2>Envoie nous un message !</h2>
+
+	<form action="formulaire.php" method="post">
+	<label for="nom">NOM et Prénom : </label>
+	<input type="text" name="nom" id="nom" placeholder="NOM Prénom" required size="16"><br><br>
+	<label for="mail">Email : </label>
+	<input type="email" name="mail" id="mail" placeholder="email@exemple.fr" required size="16"></br><br>
+	<label for="objet">Objet : </label>
+		<select name="objet" id="objet">
+		<option value="suggestions">Suggestions</option>
+		<option value="bugs_pbs">Bugs / Problèmes</option>
+		<option value="avis">Avis</option>
+		</select>
+	<br><br>
+	
+	<label for="message"><div id="msg">Message :</div></label>
+	<textarea name="message" id="message" placeholder="Votre site est trop bien !" required"></textarea>
+	<br><br>
+	<input type="submit" value="Envoyer le message">
+	<br><br>
+	<input type="reset" value="Vider les champs">
+	</form>
+	</aside>
+	<footer>
+	<ul><a href="mailto:chalenconyoanpro@gmail.com">Nous contacter</a> | 
+	<a href="cgu.html">Conditions Générales d'Utilisation (CGU)</a> | 
+	<a href="rgpd.html">Mentions Légales</a> | 
+	<a href="pol-conf.html">Politique de Confidentialité</a> | 
+	<a href="sources.html">Sources</a></ul>
+	</footer>
+</body>
+</html>

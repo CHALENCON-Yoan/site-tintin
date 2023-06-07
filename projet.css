@@ -1,0 +1,174 @@
+body{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:#E8E8E8;
+	justify-content: center;
+	font-family:calibri
+}
+
+header{
+	flex-basis: 100%;
+}
+
+header li{
+	background-color:#9E8FAB;
+}
+
+header li, main li{
+	padding:1rem;
+	flex-grow: 1;
+	border-right: thin solid;
+	text-align: center;
+}
+
+header a, main ul a{
+	color: black;
+	text-decoration:none
+}
+
+header ul, main ul{
+	display: flex;
+	list-style: none;
+}
+
+.dernier{
+	border-right:none
+}
+
+#en-tete{
+	width:100%;
+	display:flex;
+}
+
+#img img, #img2 img{
+	max-width: 100%;
+}
+
+#img, #img2{
+	flex-basis: 20%;
+	text-align:center;
+}
+
+#titre{
+	display:flex;
+	flex-basis: 80%;
+	justify-content:center;
+	font-size:400%;
+}
+
+main{
+	flex-basis: 66%;
+	padding: 1rem;
+	font-size:130%
+}
+
+main a{
+	color:#7A2A2C;
+	text-decoration:none
+}
+
+main h1{
+	font-size:400%;
+	text-align: center;
+}
+
+main h2{
+	font-size:300%;
+	text-align: center;
+}
+
+main img{
+	max-width:30%
+}
+
+#img_tintin{
+	text-align:center
+}
+
+.persos, .bds, .dvd{
+	display: flex;
+	padding: 1em;
+	justify-content:center
+}
+
+.persos img, .bds img, .dvd img{
+	height:100%;
+	padding: 1em;
+}
+
+h3{
+	text-align:center
+}
+
+video{
+	display:block;
+	margin:0 auto;
+}
+
+#vod{
+	padding-top:5rem
+}
+
+#fleche{
+	position: fixed;
+	bottom : 20px;
+	right:30px
+}
+
+aside{
+  flex-basis: 26%;
+  padding: 1rem;
+  text-align: right;
+  padding-top:8rem
+}
+
+#message, #nom, #mail, #objet{
+	text-align:center
+}
+
+#msg{
+	margin-right:135px
+}
+
+footer{
+	background-color:#6e7d7c;
+	flex-basis:100%;
+	text-align: center;
+	font-size:150%;
+	color:white
+}
+
+footer a{
+	color:white;
+	text-decoration:none
+}
+
+.liens{
+	color:blue;
+	text-decoration:underline
+}
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+#fleche{
+	position: fixed;
+	bottom : 20px;
+	right:30px
+}
+
+

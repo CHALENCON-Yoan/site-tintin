@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>TINTIN</title>
+		<link rel="stylesheet"
+		href="projet.css">
+		<script src="projet.js"> </script>
+		<link rel="icon" type="image/png" href="Images/tintin.png" />
+</head>
+<body>
+	<header>
+		<div id="en-tete">
+		<div id="img">
+		<img src="Images/tintin_milou.png">
+		</div>
+		<div id="titre">
+		<h1>TINTIN</h1>
+		</div>
+		<div id="img2">
+		<img src="Images/tintin_milou.png">
+		</div>
+		</div>
+		<nav>
+			<ul>
+			<li id="accueil" onmouseover="couleurChange('accueil', '#F97068')" onmouseout="couleurChange('accueil', '#9E8FAB')"><a href="accueil.html">Accueil</a></li>
+			<li id="personnages" onmouseover="couleurChange('personnages', '#F97068')" onmouseout="couleurChange('personnages', '#9E8FAB')"><a href="persos.html">Personnages</a></li>
+			<li id="bd" onmouseover="couleurChange('bd', '#F97068')" onmouseout="couleurChange('bd', '#9E8FAB')"><a href="bd.html">BD</a></li>
+			<li id="serie_animee" onmouseover="couleurChange('serie_animee', '#F97068')" onmouseout="couleurChange('serie_animee', '#9E8FAB')"><a href="serie_animee.html">Série Animée</a></li>
+			<li class="dernier" id="film" onmouseover="couleurChange('film', '#F97068')" onmouseout="couleurChange('film', '#9E8FAB')"><a href="film.html">Film</a></li>
+			</ul>
+		</nav>
+	</header>
+	<a href="#top"><img src ="Images/top.png" id="fleche"/></a>
+	<main>
+	<h1><u>TINTIN, C'EST QUOI</u> ?</h1>
+	<p><a href="persos.html#tintin">Tintin</a> est un personnage de fiction, inventé par le célèbre dessinateur Hergé. Il est nottament connu pour ses <a href="bd.html">bandes dessinées</a> <i>Les Aventures de Tintin</i>. Ces dernières ont été adaptées en <a href="serie_animee.html">série animée</a> et en <a href="film.html">film</a>.
+	<br><div id="img_tintin"><img src="Images/tintin_milou_courent.png"></div>
+	<br><a href="persos.html#tintin">Tintin</a> est un jeune reporter belge qui part toujours à l'aventure avec son fidèle compagnon à quattre pattes, <a href="persos.html#milou">Milou</a>, un fox - terrier.<br>Durant leurs voyages, ils rencontrent des personnages qui partagerons par la suite leurs aventures avec eux. Il s'agit d'un très grand voyageur qui va en <a href="bd.html#soviets">URSS</a>, au <a href="bd.html#1">Congo</a>, en <a href="bd.html#3">In</a><a href="bd.html#4">de</a>, en <a href="bd.html#3">Égypte</a>, en <a href="bd.html#4">Chine</a>, au <a href="bd.html#19">Tibet</a> et même sur la <a href="bd.html#16">Lune</a>.
+	<br><br><a href="persos.html#tintin">Tintin</a> est, avec le temps, devenu un personnage majeur de la bande dessinée.
+	<br><br>Il habite au 26 Rue du Labrador à Bruxelles en Belgique puis rejoins ensuite son nouvel ami, <a href="persos.html#haddock">le Capitaine Haddock</a>, au château de Moulinsart.
+	</p>
+	</main>
+	<aside>
+	<h2>Envoie nous un message !</h2>
+
+	<form name="contact" netlify>
+	<label for="nom">NOM et Prénom : </label>
+	<input type="text" name="nom" id="nom" placeholder="NOM Prénom" required size="16"><br><br>
+	<label for="mail">Email : </label>
+	<input type="email" name="mail" id="mail" placeholder="email@exemple.fr" required size="16"></br><br>
+	<label for="objet">Objet : </label>
+		<select name="objet" id="objet">
+		<option value="suggestions">Suggestions</option>
+		<option value="bugs_pbs">Bugs / Problèmes</option>
+		<option value="avis">Avis</option>
+		</select>
+	<br><br>
+	
+	<label for="message"><div id="msg">Message :</div></label>
+	<textarea name="message" id="message" placeholder="Votre site est trop bien !" required"></textarea>
+	<br><br>
+	<input type="submit" value="Envoyer le message">
+	<br><br>
+	<input type="reset" value="Vider les champs">
+	</form>
+	</aside>
+	<footer>
+	<ul><a href="mailto:chalenconyoanpro@gmail.com">Nous contacter</a> | 
+	<a href="cgu.html">Conditions Générales d'Utilisation (CGU)</a> | 
+	<a href="rgpd.html">Mentions Légales</a> | 
+	<a href="pol-conf.html">Politique de Confidentialité</a> | 
+	<a href="sources.html">Sources</a></ul>
+	</footer>
+</body>
+</html>

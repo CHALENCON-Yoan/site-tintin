@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>TINTIN</title>
+		<link rel="stylesheet"
+		href="projet.css">
+		<script src="projet.js"> </script>
+</head>
+<body>
+	<header>
+		<div id="en-tete">
+		<div id="img">
+		<img src="Images/tintin_milou.png">
+		</div>
+		<div id="titre">
+		<h1>TINTIN</h1>
+		</div>
+		<div id="img2">
+		<img src="Images/tintin_milou.png">
+		</div>
+		</div>
+		<nav>
+			<ul>
+			<li id="accueil" onmouseover="couleurChange('accueil', '#F97068')" onmouseout="couleurChange('accueil', '#9E8FAB')"><a href="accueil.html">Accueil</a></li>
+			<li id="personnages" onmouseover="couleurChange('personnages', '#F97068')" onmouseout="couleurChange('personnages', '#9E8FAB')"><a href="persos.html">Personnages</a></li>
+			<li id="bd" onmouseover="couleurChange('bd', '#F97068')" onmouseout="couleurChange('bd', '#9E8FAB')"><a href="bd.html">BD</a></li>
+			<li id="serie_animee" onmouseover="couleurChange('serie_animee', '#F97068')" onmouseout="couleurChange('serie_animee', '#9E8FAB')"><a href="serie_animee.html">Série Animée</a></li>
+			<li class="dernier" id="film" onmouseover="couleurChange('film', '#F97068')" onmouseout="couleurChange('film', '#9E8FAB')"><a href="film.html">Film</a></li>
+			</ul>
+		</nav>
+	</header>
+	<a href="#top"><img src ="Images/top.png" id="fleche"/></a>
+	<main>
+	<h1><u>LE FILM</u> :</h1>
+	
+	<br>
+	Toutes les aventures de <a href="persos.html#tintin">Tintin</a> ont été rassemblées dans un film <i>Les Aventures de Tintin : Le Secret de la Licorne</i>, sorti le 26 Octobre 2011 et réalisé par Steven Spielberg.
+	<br><br>
+	<h3>Pour des raisons évidentes de droits d'auteurs, le film n'est pas disponible dans cette version publique du site.</h3>
+	
+	
+	</main>
+	<aside>
+	<h2>Envoie nous un message !</h2>
+
+	<form action="formulaire.php" method="post">
+	<label for="nom">NOM et Prénom : </label>
+	<input type="text" name="nom" id="nom" placeholder="NOM Prénom" required size="16"><br><br>
+	<label for="mail">Email : </label>
+	<input type="email" name="mail" id="mail" placeholder="email@exemple.fr" required size="16"></br><br>
+	<label for="objet">Objet : </label>
+		<select name="objet" id="objet">
+		<option value="suggestions">Suggestions</option>
+		<option value="bugs_pbs">Bugs / Problèmes</option>
+		<option value="avis">Avis</option>
+		</select>
+	<br><br>
+	
+	<label for="message"><div id="msg">Message :</div></label>
+	<textarea name="message" id="message" placeholder="Votre site est trop bien !" required"></textarea>
+	<br><br>
+	<input type="submit" value="Envoyer le message">
+	<br><br>
+	<input type="reset" value="Vider les champs">
+	</form>
+	</aside>
+	<footer>
+	<ul><a href="mailto:chalenconyoanpro@gmail.com">Nous contacter</a> | 
+	<a href="cgu.html">Conditions Générales d'Utilisation (CGU)</a> | 
+	<a href="rgpd.html">Mentions Légales</a> | 
+	<a href="pol-conf.html">Politique de Confidentialité</a> | 
+	<a href="sources.html">Sources</a></ul>
+	</footer>
+</body>
+</html>
